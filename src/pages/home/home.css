@@ -1,0 +1,19 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 150px 0px
+}
+
+.text-name {
+    width: 400px;
+}
+
+@media (max-width: 650px) {
+    .container {
+      flex-direction: column; /* Altera a direção do flex para uma coluna */
+      align-items: flex-start; /* Alinha os itens à esquerda */
+      justify-content: center; /* Centraliza verticalmente os itens */
+      margin: 0% 1% 0%
+    }
+}

@@ -9,7 +9,7 @@ function StackAnimation() {
   useEffect(() => {
     // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     const typed = new Typed(el.current, {
-      strings: ['Desenvolvedor.','Front-end','Back-end','E Amante de Musicas Anos 90'],
+      strings: ['Codar','Musicas','Tocar violão','Academia','Ouvir MC Poze nos anos 80.'],
       typeSpeed: 70,
       showCursor: true,
       loop: true

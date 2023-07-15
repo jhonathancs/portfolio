@@ -9,8 +9,8 @@ function NameAnimation() {
   useEffect(() => {
     // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     const typed = new Typed(el.current, {
-      strings: ['Jhonathan Costa.'],
-      typeSpeed: 70,
+      strings: ['Jhonathan Costa, Desenvolvedor Full Stack.'],
+      typeSpeed: 50,
       showCursor: false
     });
 
