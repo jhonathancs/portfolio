@@ -7,11 +7,11 @@ function Home() {
     return (
       <div className="container">
         <div className="text-name">
-        <h1>Olá! Eu sou<NameAnimation />E Gosto de <StackAnimation /></h1>
+        <h1>Olá! Eu sou<NameAnimation />E Apaixonado por <StackAnimation /></h1>
           <p>Seja Bem Vindo ao meu Portfolio!</p>
       </div>
         <Imagem />
-     </div>
+      </div>
       )
   }
   

@@ -1,8 +1,13 @@
+import allProjects from "../../data/allProjects"
+import ProjectIterface from "./projectCart"
+
 function Projects () {
     return(
-        <div>
-            <h1>projects</h1>
-        </div>
+    <div>
+        {allProjects.map((project) => (
+        <ProjectIterface key={project.id} project={project} />
+    ))}
+    </div>
     )
 }
 
