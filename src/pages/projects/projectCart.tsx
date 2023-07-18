@@ -16,6 +16,7 @@ interface ProjectProps {
 
 function ProjectInterface({ project }: ProjectProps) {
   const {name, img, technologies, text, linkGitHub, linkPage} = project
+
   return (
     <div className="project-item">
       <h2>{name}</h2>
@@ -23,10 +24,10 @@ function ProjectInterface({ project }: ProjectProps) {
       <p>{text}</p>
       <p>Technologies: {technologies}</p>
       <p>
-        GitHub: <a href={linkGitHub}>{linkGitHub}</a>
+        GitHub: <a href={linkGitHub} target="_blank" rel="noopener noreferrer">{linkGitHub}</a>
       </p>
       <p>
-        Page: <a href={linkPage}>{linkPage}</a>
+        Page: <a href={linkPage} target="_blank" rel="noopener noreferrer">{linkPage}</a>
       </p>
     </div>
   );
