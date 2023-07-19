@@ -9,3 +9,15 @@
     width: 100%;
     border-radius: 50%;
   }
+
+  .img-me p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .img-me p > * {
+    margin: 1px; /* Ajuste a margem conforme necessário */
+  }
