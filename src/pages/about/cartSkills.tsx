@@ -1,22 +1,33 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
 import React from 'react';
+import IconSkills, { SkillIcon } from '../../data/IconSkills';
 import { IconType } from 'react-icons';
 import { IconContext } from 'react-icons';
-import IconSkills, { SkillIcon } from '../../data/IconSkills';
-import { FaReact } from 'react-icons/fa';
-import { IoLogoJavascript, IoLogoCss3 } from 'react-icons/io';
+import {GrMysql} from 'react-icons/gr';
+import {SiJest} from 'react-icons/si';
+import * as BiIcons from 'react-icons/bi';
+import * as FaIcons from 'react-icons/fa';
+
+const { 
+  BiLogoTypescript,BiLogoFirebase,
+  BiLogoMongodb,BiLogoRedux,BiLogoJavascript,
+  BiLogoCss3 } = BiIcons;
+
+const { 
+  FaReact, FaPython, FaNodeJs, FaJava, 
+  FaDocker, FaHtml5, FaGitAlt,FaGithub 
+} = FaIcons;
 
 const iconComponents: { [key: string]: IconType } = {
-  FaReact,
-  IoLogoJavascript,
-  IoLogoCss3,
-  // Add more icons here as needed
+  BiLogoTypescript,BiLogoFirebase,BiLogoMongodb,BiLogoRedux,BiLogoCss3,
+  FaReact,FaPython,FaNodeJs,FaJava,FaDocker,FaHtml5,
+  FaGitAlt,FaGithub,GrMysql,SiJest,BiLogoJavascript
 };
 
 const HardSkillsComponent: React.FC = () => {
   return (
     <div>
-      <IconContext.Provider value={{size: '80px',color: 'black'}}>
+      <IconContext.Provider value={{size: '50px',color: 'black'}}>
       {IconSkills.map((skill: SkillIcon) => {
         const IconComponent = iconComponents[skill.icon];
         return (

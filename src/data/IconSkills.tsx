@@ -9,14 +9,65 @@ const IconSkills: SkillIcon[] = [
     title: 'ReactJS',
     },
     {
-    icon: 'IoLogoJavascript',
+        icon: 'BiLogoTypescript',
+        title: 'TypeScript',
+    },
+    {
+        icon: 'FaNodeJs',
+        title: 'NodeJs',
+    },
+    {
+    icon: 'BiLogoJavascript',
     title: 'JavaScript',
     },
     {
-    icon: 'IoLogoCss3',
+    icon: 'FaHtml5',
+    title: 'Html5',
+    },
+    {
+    icon: 'BiLogoCss3',
     title: 'CSS',
     },
-    // Add more icons here as needed
+    {
+    icon: 'BiLogoRedux',
+    title: 'Redux',
+    },
+    {
+    icon: 'FaPython',
+    title: 'Python',
+    },
+    {
+    icon: 'FaJava',
+    title: 'Java',
+    },
+    {
+    icon: 'FaDocker',
+    title: 'Docker',
+    },
+    {
+        icon: 'FaGitAlt',
+        title: 'Git',
+    },
+    {
+        icon: 'FaGithub',
+        title: 'Github',
+    },
+    {
+        icon: 'GrMysql',
+        title: 'Mysql',
+    },
+    {
+        icon: 'BiLogoMongodb',
+        title: 'Mongodb',
+    },
+    {
+        icon: 'BiLogoFirebase',
+        title: 'Firebase',
+    },
+    {
+        icon: 'SiJest',
+        title: 'Jest',
+    },
 ];
 
 export default IconSkills;
