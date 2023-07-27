@@ -1,0 +1,6 @@
+.linha-verde {
+    border: none;
+    height: 1px;
+    background-color: green;
+    margin: 5px 5px;
+}

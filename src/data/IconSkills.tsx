@@ -9,12 +9,12 @@ const IconSkills: SkillIcon[] = [
     title: 'ReactJS',
     },
     {
-        icon: 'BiLogoTypescript',
-        title: 'TypeScript',
+    icon: 'BiLogoTypescript',
+    title: 'TypeScript',
     },
     {
-        icon: 'FaNodeJs',
-        title: 'NodeJs',
+    icon: 'FaNodeJs',
+    title: 'NodeJs',
     },
     {
     icon: 'BiLogoJavascript',
@@ -45,28 +45,28 @@ const IconSkills: SkillIcon[] = [
     title: 'Docker',
     },
     {
-        icon: 'FaGitAlt',
-        title: 'Git',
+    icon: 'FaGitAlt',
+    title: 'Git',
     },
     {
-        icon: 'FaGithub',
-        title: 'Github',
+    icon: 'FaGithub',
+    title: 'Github',
     },
     {
-        icon: 'GrMysql',
-        title: 'Mysql',
+    icon: 'GrMysql',
+    title: 'Mysql',
     },
     {
-        icon: 'BiLogoMongodb',
-        title: 'Mongodb',
+    icon: 'BiLogoMongodb',
+    title: 'Mongodb',
     },
     {
-        icon: 'BiLogoFirebase',
-        title: 'Firebase',
+    icon: 'BiLogoFirebase',
+    title: 'Firebase',
     },
     {
-        icon: 'SiJest',
-        title: 'Jest',
+    icon: 'SiJest',
+    title: 'Jest',
     },
 ];
 

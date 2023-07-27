@@ -1,10 +1,11 @@
 import HardSkillsComponent from "./cartSkills"
+import Aboutme from "./meAbout"
 
 function About() {
     return(
         <div>
-        <h1>about</h1>
-        <HardSkillsComponent />
+            <Aboutme />
+            <HardSkillsComponent />
         </div>
     )
 }
