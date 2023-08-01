@@ -7,6 +7,7 @@ import {GrMysql} from 'react-icons/gr';
 import {SiJest} from 'react-icons/si';
 import * as BiIcons from 'react-icons/bi';
 import * as FaIcons from 'react-icons/fa';
+import './cartSkills.css'
 
 const { 
   BiLogoTypescript,BiLogoFirebase,
@@ -26,14 +27,14 @@ const iconComponents: { [key: string]: IconType } = {
 
 const HardSkillsComponent: React.FC = () => {
   return (
-    <div>
-      <IconContext.Provider value={{size: '50px',color: 'black'}}>
+    <div className="grid-container-icons">
+      <IconContext.Provider value={{size: '70px'}}>
       {IconSkills.map((skill: SkillIcon) => {
         const IconComponent = iconComponents[skill.icon];
         return (
-          <div key={skill.title} className="icon-container">
+          <div key={skill.title} className="project-item-icons">
             <IconComponent />
-            <span className="icon-name">{skill.title}</span>
+            <span>{skill.title}</span>
           </div>
         );
       })}

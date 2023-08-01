@@ -19,7 +19,7 @@ function ProjectInterface({ project }: ProjectProps) {
 
   return (
     <div className="project-item">
-      <h2>{name}</h2>
+      <h2 className='title'>{name}</h2>
       <img src={img} alt={name} />
       <p>{text}</p>
       <p>Technologies: {technologies}</p>
