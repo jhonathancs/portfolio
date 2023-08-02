@@ -2,13 +2,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 10px;
-    margin-left: auto;
     text-align: center;
+    width: 60%;
 }
 
 .project-item-icons {
     width: 70px;
     height: 70px;
     border: none;
+    margin: 4%;
 }

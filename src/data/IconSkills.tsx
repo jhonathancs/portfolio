@@ -1,12 +1,14 @@
 export interface SkillIcon {
     icon: string;
     title: string;
+    about?: string;
 }
 
 const IconSkills: SkillIcon[] = [
     {
     icon: 'FaReact',
     title: 'ReactJS',
+    about: 'ola me chamo reactjs'
     },
     {
     icon: 'BiLogoTypescript',

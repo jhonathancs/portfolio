@@ -35,6 +35,7 @@ const HardSkillsComponent: React.FC = () => {
           <div key={skill.title} className="project-item-icons">
             <IconComponent />
             <span>{skill.title}</span>
+            {/* <span>{skill.about}</span> */}
           </div>
         );
       })}
