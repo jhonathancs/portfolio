@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-unsafe-assignment */
-import React from 'react';
+import React, { useState } from 'react';
 import IconSkills, { SkillIcon } from '../../data/IconSkills';
 import { IconType } from 'react-icons';
 import { IconContext } from 'react-icons';
@@ -26,6 +26,18 @@ const iconComponents: { [key: string]: IconType } = {
 };
 
 const HardSkillsComponent: React.FC = () => {
+  const [showModal, setShowModal] = useState(false);
+  const [selectedSkillAbout, setSelectedSkillAbout] = useState('');
+
+  const handleOpenModal = (about: string) => {
+    setSelectedSkillAbout(about);
+    setShowModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
+
   return (
     <div className="grid-container-icons">
       <IconContext.Provider value={{size: '70px'}}>
@@ -33,13 +45,22 @@ const HardSkillsComponent: React.FC = () => {
         const IconComponent = iconComponents[skill.icon];
         return (
           <div key={skill.title} className="project-item-icons">
-            <IconComponent />
+            <IconComponent onClick={() => handleOpenModal(skill.about)} />
             <span>{skill.title}</span>
-            {/* <span>{skill.about}</span> */}
           </div>
         );
       })}
       </IconContext.Provider>
+      {showModal && (
+        <div className="modal-container">
+          <div className="modal-box">
+            <span className="close" onClick={handleCloseModal}>
+              &times;
+            </span>
+            <div className="modal-content">{selectedSkillAbout}</div>
+          </div>
+        </div>
+      )}
     </div>
   );
 };
