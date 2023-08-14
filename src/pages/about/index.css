@@ -1,0 +1,10 @@
+.about-style {
+    display: flex;
+    align-items: stretch;
+}
+
+.image img {
+    /* height: 100%; */
+    width: 100%;
+    object-fit: cover;
+}

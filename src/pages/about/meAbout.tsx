@@ -1,3 +1,4 @@
+import ButtonCv from './buttonCv';
 import './meAbout.css'
 
 function Aboutme() {
@@ -20,13 +21,10 @@ function Aboutme() {
     <p className="about-text-p about-text-p-6">Bônus sobre mim: Inicialmente, estudei Engenharia Civil e, próximo à conclusão do curso, tomei a decisão corajosa de fazer uma transição de carreira para a área
     do desenvolvimento, na qual atuo hoje.</p>
 </section>
+    <ButtonCv />
     <div className="linha-verde"></div>
     </div>
     )
 }
-
-/*Minha paixão está voltada principalmente para o desenvolvimento Web, onde posso dar vida às interfaces e criar
-experiências interativas e envolventes para os usuários. No entanto, estou ciente da relevância do Back-end e estou 
-aberto a explorar esse campo também, a fim de construir soluções completas e integradas*/
 
 export default Aboutme;
