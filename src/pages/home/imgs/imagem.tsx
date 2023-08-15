@@ -1,5 +1,5 @@
 import './imagem.css'
-import img from '../../../assets/photo-me.jpg'
+import img from '../../../assets/photo-me2.jpg'
 import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import { IconContext} from 'react-icons'
 

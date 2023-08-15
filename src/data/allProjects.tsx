@@ -6,8 +6,6 @@ import casaCambioImg from '../assets/casaCambio-capa.jpeg'
 import trybeWartImg from '../assets/trybeWart-capa.jpeg'
 import pedidoNamoroImg from '../assets/pedidoNamoro-capa.jpeg'
 import TshirtImg from '../assets/t-shit-capa.jpeg'
-// futuros projetos abaixo:
-// project pokedex react
 
 const allProjects = [
     {

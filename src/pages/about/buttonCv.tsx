@@ -1,6 +1,8 @@
+import './buttonCv.css'
+
 function buttonCv() {
     return(
-        <div><button type="button">Resume</button></div>
+        <div className="bttn-resume"><button  type="button">Dowload CV</button></div>
     )
 }
 

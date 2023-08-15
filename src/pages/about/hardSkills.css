@@ -1,4 +1,6 @@
 .hard {
-    margin-top: 2%;
-    margin-left: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
 }

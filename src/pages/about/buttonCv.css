@@ -1,0 +1,10 @@
+.bttn-resume {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 15px;
+}
+
+.bttn-resume button {
+    background-color: rgb(220, 241, 241);
+}
