@@ -1,16 +1,21 @@
-.about-style {
-    display: flex;
-}
-
 .image {
-    top: 0;
-    left: 0;
-    width: 100vw;
-    
+    display: flex;
+    align-items: center;
+    margin-top: 2%;
 }
 
 .image img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
+    width: 35%;
+    border-radius: 5%;
+}
+
+@media (max-width: 700px) {
+    .image {
+        flex-direction: column;
+        align-items: center;
+    }
+    .image img {
+        width: 400px;
+        border-radius: 5%
+    }
 }

@@ -2,7 +2,13 @@ import './buttonCv.css'
 
 function buttonCv() {
     return(
-        <div className="bttn-resume"><button  type="button">Dowload CV</button></div>
+        <div>
+        <div className="bttn-resume"><button  type="button">Dowload CV
+        </button>
+        </div>
+        <div className="linha-verde">
+        </div>
+        </div>
     )
 }
 
